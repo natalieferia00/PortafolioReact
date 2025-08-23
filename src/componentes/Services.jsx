@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css'; // Asegúrate de crear este archivo de estilos
+import './Services.css'; 
 
 const servicesList = [
   { title: "Desarrollo Web", description: "Creación de sitios web y aplicaciones con tecnologías modernas como React y Angular." },

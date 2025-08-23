@@ -1,5 +1,5 @@
 import React from 'react';
-import './RecentWorks.css'; // Asegúrate de crear este archivo de estilos
+import './RecentWorks.css'; 
 
 const projectsList = [
   { title: "Proyecto 1", description: "Descripción breve del proyecto y las tecnologías usadas.", image: "/path/to/project1.jpg" },

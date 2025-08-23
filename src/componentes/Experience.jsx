@@ -1,9 +1,8 @@
 import React from 'react';
-import './Experience.css'; // Asegúrate de crear este archivo de estilos
+import './Experience.css'; 
 
 const experienceList = [
   { year: "2023-2025", role: "Desarrolladora de Software", company: "Accenture", description: "Seguimiento de agenda, revisión de idoneidad de documentos y control de archivo." },
-  // Agrega más experiencia aquí
 ];
 
 const Experience = () => {

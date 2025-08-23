@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css'; 
+import './App.css';
 
-// Importa los componentes de la carpeta 'componentes'
 import Header from './componentes/Header';
 import HeroSection from './componentes/HeroSection';
 import Services from './componentes/Services';

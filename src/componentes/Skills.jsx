@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css'; // Asegúrate de crear este archivo de estilos
+import './Skills.css'; 
 
 const skillsList = [
   { name: 'React', icon: '/path/to/react-icon.svg' },
@@ -8,7 +8,6 @@ const skillsList = [
   { name: 'Postman', icon: '/path/to/postman-icon.svg' },
   { name: 'Capacitor', icon: '/path/to/capacitor-icon.svg' },
   { name: 'Ionic', icon: '/path/to/ionic-icon.svg' },
-  // Agrega más habilidades aquí
 ];
 
 const Skills = () => {

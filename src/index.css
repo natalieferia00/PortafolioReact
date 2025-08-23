@@ -1,14 +1,12 @@
-/* Paleta de colores */
 :root {
   --background-dark: #121212;
   --text-light: #f5f5f5;
-  --accent-purple: #B131FA;
-  --accent-pink: #FF1CC0;
-  --accent-blue: #1C3AFF;
+  --accent-purple: #00f5ff;
+  --accent-pink:#00f5ff ;
+  --accent-blue:#00f5ff ;
   --section-bg: #1e1e1e;
 }
 
-/* Estilos globales */
 body {
   background-color: var(--background-dark);
   color: var(--text-light);
@@ -22,7 +20,6 @@ body {
   padding: 0 20px;
 }
 
-/* Encabezados y títulos */
 h1, h2, h3 {
   color: var(--text-light);
 }
@@ -45,12 +42,10 @@ h1, h2, h3 {
   margin: 10px auto 0;
 }
 
-/* Secciones */
 section {
   padding: 80px 0;
 }
 
-/* Habilidades (Ejemplo) */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -71,7 +66,6 @@ section {
   box-shadow: 0 0 20px var(--accent-purple);
 }
 
-/* Contenido de texto */
 p {
   color: #b0b0b0;
 }

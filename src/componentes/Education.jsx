@@ -1,9 +1,9 @@
 import React from 'react';
-import './Education.css'; // Asegúrate de crear este archivo de estilos
+import './Education.css'; 
 
 const educationList = [
   { year: "2023-2025", degree: "Análisis y Desarrollo de Software", institution: "SENA VIRTUAL" },
-  // Agrega más educación si tienes
+
 ];
 
 const Education = () => {
