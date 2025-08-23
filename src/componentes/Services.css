@@ -1,0 +1,27 @@
+.services-section {
+  background-color: var(--section-bg);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background-color: var(--background-dark);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid var(--accent-purple);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px var(--accent-purple);
+}
+
+.service-card h3 {
+  color: var(--accent-pink);
+  margin-top: 0;
+}

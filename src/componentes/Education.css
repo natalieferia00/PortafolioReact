@@ -1,0 +1,30 @@
+.education-section {
+  background-color: var(--background-dark);
+}
+
+.education-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.education-item {
+  border-left: 2px solid var(--accent-blue);
+  padding-left: 20px;
+}
+
+.education-item .year {
+  color: var(--accent-pink);
+  font-weight: bold;
+}
+
+.education-item h3 {
+  margin: 0;
+  color: var(--text-light);
+}
+
+.education-item .institution {
+  color: var(--accent-blue);
+  font-style: italic;
+  margin: 5px 0 0;
+}

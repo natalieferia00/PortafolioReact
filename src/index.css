@@ -1,0 +1,77 @@
+/* Paleta de colores */
+:root {
+  --background-dark: #121212;
+  --text-light: #f5f5f5;
+  --accent-purple: #B131FA;
+  --accent-pink: #FF1CC0;
+  --accent-blue: #1C3AFF;
+  --section-bg: #1e1e1e;
+}
+
+/* Estilos globales */
+body {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Encabezados y títulos */
+h1, h2, h3 {
+  color: var(--text-light);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--accent-purple);
+  margin: 10px auto 0;
+}
+
+/* Secciones */
+section {
+  padding: 80px 0;
+}
+
+/* Habilidades (Ejemplo) */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.skill-item {
+  background-color: var(--section-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px var(--accent-purple);
+}
+
+/* Contenido de texto */
+p {
+  color: #b0b0b0;
+}

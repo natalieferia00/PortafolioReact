@@ -1,0 +1,39 @@
+.recent-works-section {
+  /* Puedes dejarla vacía por ahora si no tienes un fondo diferente */
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.work-item {
+  background-color: var(--section-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.work-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--accent-pink);
+}
+
+.work-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.work-item h3 {
+  padding: 15px;
+  margin: 0;
+  color: var(--accent-blue);
+}
+
+.work-item p {
+  padding: 0 15px 15px;
+  margin: 0;
+}

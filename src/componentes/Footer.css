@@ -1,0 +1,11 @@
+.footer {
+  padding: 30px 0;
+  border-top: 1px solid var(--accent-purple);
+  text-align: center;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #888;
+}
